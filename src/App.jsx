@@ -37,7 +37,7 @@ function App() {
   
   const fetchUsers = async () => {
     const response = await fetch(
-      'https://accesshub.onrender.com//api/auth/users',
+      'https://accesshub.onrender.com/api/auth/users',
     );
     const data = await response.json();
     setUsers(data);
