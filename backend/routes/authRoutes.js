@@ -46,7 +46,7 @@ router.post('/login', async (req, res) => {
   }
 });
 
-// Fetch all users (Admin Only)
+// Fetch all users Admin Only
 router.get('/users', async (req, res) => {
   try {
     const users = await User.find(); // Fetch all users from MongoDB
