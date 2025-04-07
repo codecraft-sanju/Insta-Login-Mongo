@@ -12,7 +12,7 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.6",
     "axios": "^1.7.9",
-    "instagrammongodb": "file:../instagrammongodb",
+    "instagrammongodb": "file:",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-toastify": "^11.0.3",
